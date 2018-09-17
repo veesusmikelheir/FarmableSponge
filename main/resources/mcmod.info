@@ -1,0 +1,17 @@
+[
+{
+  "modid": "farmablesponge",
+  "name": "Farmable Sponge",
+  "description": "Farm sponges quickly and easily!",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["veesus mikel heir"],
+  "credits": "created by: veesus mikel heir#9999",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
+
