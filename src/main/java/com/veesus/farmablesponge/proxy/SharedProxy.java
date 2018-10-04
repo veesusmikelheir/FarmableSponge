@@ -4,6 +4,7 @@ import com.veesus.farmablesponge.FarmableSponge;
 import com.veesus.farmablesponge.block.Blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;

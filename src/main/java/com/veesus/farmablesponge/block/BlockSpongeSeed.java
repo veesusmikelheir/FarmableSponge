@@ -7,6 +7,7 @@ import net.minecraft.block.BlockSponge;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -39,7 +40,7 @@ public class BlockSpongeSeed extends Block{
         	return;
         }
         if((worldIn.rand.nextDouble()*growthCoefficient)>.5) worldIn.setBlockState(newpos, com.veesus.farmablesponge.block.Blocks.SPONGE_SEED.getDefaultState());//.withProperty(BlockSponge.WET, true));
-
+       
         
     }
 	@Override

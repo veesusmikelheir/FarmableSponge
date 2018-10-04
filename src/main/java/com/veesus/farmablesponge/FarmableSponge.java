@@ -1,5 +1,7 @@
 package com.veesus.farmablesponge;
 
+import org.apache.logging.log4j.Logger;
+
 import com.veesus.farmablesponge.proxy.SharedProxy;
 
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +18,7 @@ public class FarmableSponge {
 	public static final String NAME = "Farmable Sponge";
 	public static final String VERSION = "1.0.0";
 	
+	public static Logger logger;
 	@Instance(value=MODID)
 	public static FarmableSponge INSTANCE;
 	
@@ -24,6 +27,7 @@ public class FarmableSponge {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		logger = event.getModLog();
 		proxy.preInit(event);
 	}
 	

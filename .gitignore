@@ -1,0 +1,12 @@
+/bin
+/.gradle
+/.settings
+/.idea
+/run
+/out
+*.iml
+/classes
+/config
+/logs
+/mods
+/resourcepacks
